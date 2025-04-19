@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Comparison Tool</title>
+</head>
+<body>
+    <h1>File Comparison Tool</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="master_file">Upload Master File:</label>
+        <input type="file" name="master_file" required><br><br>
+
+        <label for="input_file">Upload Input File:</label>
+        <input type="file" name="input_file" required><br><br>
+
+        <button type="submit">Compare Files</button>
+    </form>
+</body>
+</html>
